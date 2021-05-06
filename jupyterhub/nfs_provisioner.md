@@ -43,7 +43,7 @@ check the mount and unmount it
 umount /mnt
 ```
 
-## Instal helm 
+## Install helm 
 The simplest way to install Helm is to run Helm’s installer script in a terminal
 ```
 curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
