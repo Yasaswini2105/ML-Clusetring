@@ -57,3 +57,7 @@ Run **helm list** to check if nfs-provisioner is deployed
 Run **kubectl get pods** to check if nfs pod is running
 
 Now your NFS dynamic provisioner is set!
+
+Set the storage class as default
+```
+kubectl patch storageclass nfs-client -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
