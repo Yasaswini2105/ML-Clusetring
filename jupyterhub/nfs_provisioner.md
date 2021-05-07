@@ -24,7 +24,7 @@ sudo nano /etc/exports
 ```
 add the following line
 ```
-/srv/nfs/kubedata    *(rw,sunc,no_subtree_check,no_root_squash,no_all_sqaush,insecure)
+/srv/nfs/kubedata    *(rw,sync,no_subtree_check,no_root_squash,no_all_squash,insecure)
 ```
 save it and exit
 Enable and start the nfs server
