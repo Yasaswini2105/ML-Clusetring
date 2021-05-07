@@ -7,6 +7,7 @@ ip a s
 #### Install sipcalc tool and analyse the network that is shown by running above command
 ```
 sudo apt install sipcalc
+which sipcalc
 sipcal x.x.x.x
 ```
 Take atleast 10 ip address in the usable range and assign it to metallb
