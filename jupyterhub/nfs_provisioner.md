@@ -56,7 +56,7 @@ helm repo add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/
 #### Install NFS subdir external provisioner
 change the ip address and give path as /srv/nfs/kubedata
 ```
-helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner \    --set nfs.server=x.x.x.x \    --set nfs.path=/exported/path
+helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner --set nfs.server=x.x.x.x --set nfs.path=/srv/nfs/kubedata
 ```
 Run **helm list** to check if nfs-provisioner is deployed
 
