@@ -8,7 +8,7 @@ ip a s
 ```
 sudo apt install sipcalc
 which sipcalc
-sipcal x.x.x.x
+sipcalc x.x.x.x
 ```
 Take atleast 10 ip address in the usable range and assign it to metallb
 ### Installation By Manifest
