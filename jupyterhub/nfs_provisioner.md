@@ -36,7 +36,7 @@ sudo showmount -e localhost
 ### To verify the mount login to your Kubernetes worker nodes and check if the nodes can mount nfs volumes
 ```
 apt install -y nfs-common 
-mount -t nfs ip_address:/srv/nfs/kubedata
+mount -t nfs ip_address:/srv/nfs/kubedata /mnt
 ```
 check the mount and unmount it
 ```
